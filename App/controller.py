@@ -13,7 +13,7 @@ def start():
             View.searchable_fields()
         elif choice == 'quit':
             quit()
-            print("\nThanks for playing. Bye.")
+            print("\nThank You. Bye.")
         else:
             print("\nI didn't understand that choice.\n")
 
