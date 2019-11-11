@@ -1,7 +1,7 @@
 # SearchApp
 Besic search Application build using Python.
 
-##Getting Started
+## Getting Started
 There are no other requirements for this application rather than Python.
 How ever it is best practice to run in python virtual environment.
 
