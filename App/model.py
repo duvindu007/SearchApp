@@ -40,7 +40,7 @@ class User:
     @staticmethod
     def read_file_user():
             use_list = []
-            with open('G:\\Projects\\python interview\\SearchApp\\JsonStore\\users.json') as json_file:
+            with open('JsonStore\\users.json') as json_file:
                 user_data = json.loads(json_file.read())
                 for user in user_data:
                     use_list.append(User(**user))
@@ -78,7 +78,7 @@ class Tickets:
     @staticmethod
     def read_file_tickets():
         ticket_list = []
-        with open('G:\\Projects\\python interview\\SearchApp\\JsonStore\\tickets.json') as json_file:
+        with open('JsonStore\\tickets.json') as json_file:
             ticket_data = json.loads(json_file.read())
             for ticket in ticket_data:
                 ticket_list.append(Tickets(**ticket))
@@ -110,7 +110,7 @@ class Organizations:
     @staticmethod
     def read_file_Orgz():
         orgz_list = []
-        with open('G:\\Projects\\python interview\\SearchApp\\JsonStore\\organizations.json') as json_file:
+        with open('JsonStore\\organizations.json') as json_file:
             organizations_data = json.loads(json_file.read())
 
             for organization in organizations_data:
